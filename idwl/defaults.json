@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+
+    {
+      "env": {
+        "cprytb": "We apologize, but downloads from YouTube are disabled due to YouTube Terms of Service."
+      },
+      "motd": {
+        "ttl": "",
+        "msg": "Due to copyright restrictions mp3, mp4 and other media files (specifically, YouTube content) is disabled on purpose and not allowed for download. Please be acknowledged that by using this app you are responsible for all content you preview and download. Thank you!",
+        "act": "I agree",
+        "frc": 1
+      },
+      "tzo": -28800
+    },
+
+    {
+      "env": {
+        "snbrw": 1,
+        "hstblck": [],
+        "mmedis": []
+      },
+      "AND": [
+        { "NOT": { "loc": "RU" } },
+        { "NOT": { "loc": "AU" } },
+        { "NOT": { "tzo": -28800 } }
+      ]
+    },
+    {
+      "env": {
+        "snbrw": 1,
+        "hstblck": [],
+        "mmedis": []
+      },
+      "crrc": "RU"
+    }
+  ]
+}

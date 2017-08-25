@@ -1,0 +1,53 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+    {
+      "logmtr": ["view", "event", "error", "time"],
+      "env": {
+        "cii": -1
+      },
+      "trust": 0
+    },
+
+    {
+      "data": "smt82O5G9GmlgNou6WJynE5tH5aQ2oEVndjN47qOob0czculKEG3cw97EF+xwDhdQbyCNtcM/B6XTgu3Y7iDASlGezQDet4cDP2AK9wNJHtM0omvEkdWUEzXBnUKNoM4sEpSim0ycarZo40EMxUXHd1p56n/al0kcIX+D39+qlQ=",
+      "trust": 1
+    },
+    
+    {
+      "data": "smt82O5G9GmlgNou6WJynE5tH5aQ2oEVndjN47qOob3/k4dQZo9ME1jD013aWH0n5X/scoXdtPqlgwdWjhcvfv/19e6Bbf0kNTu9zP5xiOo9TmISu02KluqRvqy61Lg27kX+wLXMxqrQ3wqa71v33EPp1YgfMXf6maSTOQWMkGk42sFlfUnmj0wU2ny49AYjVZZVw5GSJLmcYYM8Zm+BLM8siHIoHNGKx/81iwAT2oo=",
+      "trust": 1
+    },
+    
+    {
+      "env": {
+        "cii": 80,
+        "ytvc": 0,
+        "offvc": 1,
+        "morevc": 1,
+        "mrnotif": 1,
+        "repvlt": 1,
+        "kvmtm": 0,
+        "wbvc": 1,
+        "appsrt": "http://rebrand.ly/legacyvk"
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    },
+    
+    {
+      "motd": {
+        "ttl": "Обновление!",
+        "msg": "Совершенно новая версия, в которой всегда можно будет загружать музыку. Бесплатно!",
+        "lnk": "http://rebrand.ly/legacyvk",
+        "act": "Скачать",
+        "cls": "Закрыть",
+        "idc": "13aug17"
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    }
+  ]
+}

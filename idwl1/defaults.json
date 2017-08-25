@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "loglvl": 1,
+      "logmtr": ["error", "event", "view", "time"],
+      "trust": 0
+    },
+    
+    {
+      "loglvl": 1,
+      "trust": 1
+    },
+    
+    {
+      "env": {
+        "appsrt": "http://rebrand.ly/downloads"
+      }
+    },
+
+    {
+      "uuid": "B467658B-8672-417A-9870-A48EF0425EE2",
+      "kchn": {
+        "expsd": 1
+      },
+      "trust": 1
+    },
+
+    {
+      "env": {
+        "snbrw": 1,
+        "hstblck": [],
+        "mmedis": [],
+        "extdis": []
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    }
+  ]
+}

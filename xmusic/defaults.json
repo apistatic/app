@@ -1,0 +1,71 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+    {
+      "logmtr": ["view", "event", "error", "time"],
+      "trust": 0
+    },
+
+    {
+      "uuid": "DF9A770D-0284-44AB-B8A0-9B17BAD54574",
+      "kchn": { "expsd": 1 },
+      "trust": 1
+    },
+
+    {
+      "data": "smt82O5G9GmlgNou6WJynE5tH5aQ2oEVndjN47qOob0czculKEG3cw97EF+xwDhdQbyCNtcM/B6XTgu3Y7iDASlGezQDet4cDP2AK9wNJHtM0omvEkdWUEzXBnUKNoM4sEpSim0ycarZo40EMxUXHd1p56n/al0kcIX+D39+qlQ=",
+      "trust": 1
+    },
+    
+    {
+      "data": "smt82O5G9GmlgNou6WJynE5tH5aQ2oEVndjN47qOob3/k4dQZo9ME1jD013aWH0n5X/scoXdtPqlgwdWjhcvfv/19e6Bbf0kNTu9zP5xiOo9TmISu02KluqRvqy61Lg27kX+wLXMxqrQ3wqa71v33EPp1YgfMXf6maSTOQWMkGk42sFlfUnmj0wU2ny49AYjVZZVw5GSJLmcYYM8Zm+BLM8siHIoHNGKx/81iwAT2oo=",
+      "trust": 1
+    },
+
+    {
+      "data": "smt82O5G9GmlgNou6WJynE5tH5aQ2oEVndjN47qOob0czculKEG3cw97EF+xwDhdQbyCNtcM/B6XTgu3Y7iDASlGezQDet4cDP2AK9wNJHsICKbzD/US6sUC0RxK/pi9LIDM1C37VZ3cf3YqzrCVjVLKQlPOWcWYG7A7XtE2AhJVSGiN+MKpTcDKylKBk/yoa6LcLvbBG0k+xhGyj9kJ3aoHpSujg7tI2V/xF3EoJj8N5eRPkw3PRPTS0o1mE51KbwrfRJ7Xp/Rpdp+5dT9mTJ58QUYI35dGjqyFw0KPwsDWu9EEEREqY9e7YEDOalqp5btL7Lv7fXuwU58ylhWmG4lbXVi80fB56oKfQvpiJsC15/VgsFZH4LRKgw/9RUCRskdCbh1Hg5oeKXH+mR3wBg==",
+      "trust": 1
+    },
+
+    {
+      "env": {
+        "cii": 80,
+        "appsrt": "http://rebrand.ly/legacyvk",
+        "sbwm": 0.45,
+        "morevc": 1,
+        "mrnotif": 1,
+        "repvlt": 1,
+        "ytvc": 0,
+        "offvc": 1,
+        "wbvc": 1,
+        "flvc": 1,
+        "wbpbm": [
+          { "title": "YouTube", "url": "https://youtube.com" },
+          { "title": "Zaycev", "url": "https://zaycev.net" }
+        ]
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    },
+    
+    {
+      "cii": 0,
+      "dflthas": "nads",
+      "trust": 1
+    },
+    
+    {
+      "motd": {
+        "ttl": "Обновление!",
+        "msg": "Совершенно новая версия, в которой всегда можно будет загружать музыку. Бесплатно!",
+        "lnk": "http://rebrand.ly/legacyvk",
+        "act": "Скачать",
+        "cls": "Закрыть"
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    }
+  ]
+}

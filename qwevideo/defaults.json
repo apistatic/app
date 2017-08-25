@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "disabledMimes":[
+      	"public.mp3"
+      ],
+      "ytw": "We apologize, but downloads from YouTube are disabled due to YouTube Terms of Service."
+    },
+
+    {
+      "cii": 90,
+      "bid": "com.boomfox.qwevideolite"
+    },
+    {
+      "cii": 0,
+      "bid": "com.boomfox.qwevideo"
+    }
+  ]
+}

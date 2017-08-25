@@ -1,0 +1,42 @@
+{
+  "rules": [
+    {
+      "motd": {
+        "ttl": "Welcome!",
+        "msg": "Please open Info tab for instructions."
+      },
+      "loc": "US"
+    },
+
+    {
+      "loglvl": 1
+    },
+
+    {
+      "logmtr": ["view", "event", "error", "time"],
+      "trust": 0
+    },
+
+    {
+      "env": {
+        "dkk": 1
+      },
+      "NOT": { "loc": "US" },
+      "trust": 1
+    },
+
+    {
+      "crzy": {
+        "motd": {
+          "msg": "Поставьте нам, пожалуйста, высокую оценку, чтобы БЕСПЛАТНО снять ограничения!",
+          "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=1063421932",
+          "act": "5 звезд",
+          "idc": "rt8mar"
+        },
+        "tme": 30,
+        "intr": 10
+      },
+      "loc": "RU"
+    }
+  ]
+}

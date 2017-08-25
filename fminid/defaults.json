@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+    {
+      "logmtr": ["view", "event", "error", "time"],
+      "env": {
+        "cii": -1
+      },
+      "trust": 0
+    }
+  ]
+}

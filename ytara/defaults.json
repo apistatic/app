@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+    {
+      "logmtr": ["view", "event", "error", "time"],
+      "env": {
+        "cii": -1
+      },
+      "trust": 0
+    },
+
+    {
+      "uuid": "DF9A770D-0284-44AB-B8A0-9B17BAD54574",
+      "kchn": { "expsd": 1 },
+      "trust": 1
+    },
+
+    {
+      "env": {
+        "cii": 80,
+        "ytvc": 0,
+        "offvc": 1,
+        "dkk": 1,
+        "kvappid": 5256902,
+        "wbvc": 1,
+        "morevc": 1,
+        "appsrt": "http://rebrand.ly/legacyvk",
+        "kkcompsfx": "http://rebrand.ly/legacyvk"
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    },
+
+    {
+      "motd": {
+        "ttl": "Обновление!",
+        "msg": "Совершенно новая версия, в которой всегда можно будет загружать музыку. Бесплатно!",
+        "lnk": "http://rebrand.ly/legacyvk",
+        "act": "Скачать",
+        "cls": "Закрыть"
+      },
+      "NOT": { "kchnhas": "expsd" },
+      "trust": 1
+    }
+  ]
+}

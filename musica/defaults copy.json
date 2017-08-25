@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+
+    {
+      "env": {
+        "scfauth": 0
+      }
+    },
+
+    {
+      "motd": {
+        "ttl": "NOTICE",
+        "msg": "The app uses authorized SoundCloud® API. By using this application you agree to SoundCloud® ToS (https://soundcloud.com/terms-of-use).",
+        "act": "I Agree",
+        "frc": 1
+      },
+      "trust": 0
+    },
+
+    {
+      "crzy": {
+        "motd": {
+          "msg": "Мы очень стараемся! Поставьте высокую оценку, чтобы поддержать разработчика :)",
+          "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=992360544",
+          "act": "5 звезд",
+          "idc": "rt19feb"
+        },
+        "tme": 10,
+        "intr": 30
+      },
+      "loc": "RU",
+      "trust": 1
+    },
+
+    {
+      "crzy": {
+        "motd": {
+          "msg": "We have worked really hard on the update. Please rate the app to support developers!",
+          "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=992360544",
+          "act": "5 stars",
+          "idc": "rt19feb"
+        },
+        "tme": 10,
+        "intr": 30
+      },
+      "NOT": { "loc": "RU" },
+      "trust": 1
+    }
+
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "skp": 1,
+      "brw": 1,
+      "blacklistedHosts": [],
+      "disabledMimes":[],
+      "NOT": { "loc": "US" }
+    },
+
+    {
+      "cii": 3600,
+      "com.bfx.cii": 3600
+    },
+
+    {
+      "skp": 1,
+      "NOT": { "loc" : "US" }
+    },
+
+    {
+      "dflt": {
+          "sckey": "XSGYiNkhWe60LlcYKwdw"
+      },
+      "ssl": 0
+    }
+  ]
+}

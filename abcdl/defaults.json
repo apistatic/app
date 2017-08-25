@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+    
+    {
+      "env": {
+        "snbrw": 1
+      },
+      "NOT": {"tzo": -28800}
+    },
+
+    {
+      "motd": {
+        "ttl": "New Version!",
+        "msg": "Browser with tabs, faster downloads, passcode lock with Touchd ID, sort files and many more! FREE.",
+        "lnk": "https://itunes.apple.com/app/id1083382404?mt=8",
+        "act": "Update",
+        "cls": "Close"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "loglvl": "verbose",
+      "logmtr": ["error", "event", "view", "time"]
+    },
+    {
+      "motd": {
+        "ttl": "Good",
+        "cls": "Close"
+      },
+      "mitm": 0
+    },
+    {
+      "motd": {
+        "ttl": "MITM active",
+        "cls": "Close"
+      },
+      "mitm": 1
+    },
+    {
+      "motd": {
+        "ttl": "MITM chain validation failed",
+        "cls": "Close"
+      },
+      "mitm": 2
+    },
+    {
+      "motd": {
+        "ttl": "MITM challenge not called",
+        "cls": "Close"
+      },
+      "mitm": 3
+    }
+  ]
+}

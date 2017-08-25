@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+        "cii": 10,
+        "analytics": true,
+        "adcampaign": true
+    }
+  ]
+}

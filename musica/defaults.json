@@ -1,0 +1,23 @@
+{
+  "rules": [
+    {
+      "loglvl": 1
+    },
+
+    {
+      "env": {
+        "scfauth": 0
+      }
+    },
+
+    {
+      "!motd": {
+        "ttl": "NOTICE",
+        "msg": "The app uses authorized SoundCloud® API. By using this application you agree to SoundCloud® ToS (https://soundcloud.com/terms-of-use).",
+        "act": "I Agree",
+        "frc": 1
+      },
+      "trust": 0
+    }
+  ]
+}
