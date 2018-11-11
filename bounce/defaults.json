@@ -1,36 +1,28 @@
 {
-	"rules" : {
-		"110" : {
-		    "ios_rater" : true,
-		    "ios_interstitials" : true,
-		    "ios_ads_min_time" : 10, 
-		    "ios_ads_min_screens" : 2,  
-		    "ios_ads_rt" : true
-		}
-	},
+  "android_ads_min_screens": 2,
+  "android_ads_min_time": 10,
+  "android_interstitials": true,
+  "android_rater": true,
 
-    "game_rater": {
-        "enabled": true,
-        "level": 1,
-        "title": "Games 35cm",
-        "text": "If you enjoy playing Bounce Original, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!"
-    },
+  "game_rater": {
+    "enabled": false,
+    "level": 1,
+    "text": "If you enjoy playing Bounce Original, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!",
+    "title": "Games 35cm"
+  },
 
-    "ios_rater": true,
-    "ios_interstitials" : true,
-    "ios_ads_min_time" : 10, 
-    "ios_ads_min_screens" : 2, 
+  "ios_ads_min_screens": 2,
+  "ios_ads_min_time": 10,
+  "ios_interstitials": false,
+  "ios_rater": false,
 
-    "android_rater": true,
-    "android_interstitials" : true,
-    "android_ads_min_time" : 10,
-    "android_ads_min_screens" : 2,
-
-    "!ios_message": {
-        "title": "",
-        "text": "Наш новый хит уже в апп сторе! Сколько сейфов взломаешь ты?",
-        "act": "Скачать",
-        "act_cancel": "Закрыть",
-        "link" : "https://itunes.apple.com/app/apple-store/id1060775769?pt=53765801&ct=bounce&mt=8"
+  "rules": {
+    "110": {
+      "ios_ads_min_screens": 2,
+      "ios_ads_min_time": 10,
+      "ios_ads_rt": true,
+      "ios_interstitials": false,
+      "ios_rater": false
     }
+  }
 }
